@@ -9,7 +9,7 @@ class ImageExtender {
 	
 	function __construct() {
 		$this->namePattern = "%03d";
-		$this->outputDirectory = uniqid('tmp');
+		$this->outputDirectory = __DIR__ . "/" . uniqid('tmp');
 		
 		mkdir($this->outputDirectory);
 	}

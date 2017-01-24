@@ -2,8 +2,8 @@
 
 /* ATTENTION: PhotocastCreator requires ffmpeg installed. Read README first. */
 
-require_once('class.photocast-creator.php');
-require_once('classes/class.text-image.php');
+require_once('../class.photocast-creator.php');
+require_once('../classes/class.text-image.php');
 
 //choose directory for images in constructor
 $photocastCreator = new PhotocastCreator("images");
